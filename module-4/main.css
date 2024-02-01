@@ -1,0 +1,32 @@
+html{
+    background-color: #E2E8F0;
+}
+
+main{
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: .5rem;
+}
+
+#formPasso1, #formPasso2, table{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 100px 75px;
+    gap: 5px;
+}
+
+.error {
+    border: 1px solid red;
+}
+
+input, button{
+    border: 1px solid lightgrey;
+    padding: 5px 10px;
+    border-radius: .5rem;
+}
+
